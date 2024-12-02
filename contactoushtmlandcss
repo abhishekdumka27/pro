@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="foodweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .heading {
+            color: #14e0be;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: grid;
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color:Black;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        </style>
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo">
+                <h1>TASTY BITES HUB</h1>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i onclick="cart()" class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="User name">
+            <input type="password" placeholder="Password"> <br>
+            <button>Log In</button>
+
+        </div>
+
+        <div class="nav">
+            <p><a href="home.html">Home</a></p>
+            <p><a href="food.html">Foods</a></p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="contactus.html">Contact Us!</a></p>
+        </div>
+    </div>
+<div>
+   <div class="heading">
+      Contact Us
+   </div>
+    <main>
+        <p>We'd love to hear from you! Fill out the form below to get in touch with us.</p>
+
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="foodweb.js"></script>
+</body>
+</html>
