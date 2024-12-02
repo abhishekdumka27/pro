@@ -1,0 +1,58 @@
+body, h1, h2, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the cart section */
+.cart {
+    margin: 20px;
+}
+
+/* Style the table */
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table header */
+.cart thead {
+    background-color: #111111;
+}
+
+/* Style table cells in the header */
+.cart th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style table rows in the body */
+.cart tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style table cells in the body */
+.cart td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the image in the table */
+.cart img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/* Style the input for quantity */
+.cart input[type="number"] {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Style the Flex div */
+.cart .Flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
